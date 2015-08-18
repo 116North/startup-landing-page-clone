@@ -1,3 +1,49 @@
+/*Visual delimeters for the site layout*/
+body{
+  background-color: LightGrey;
+}
+div{
+  border: 1px solid chocolate;
+}
+/*Start of custom body styles*/
+.content{
+  padding: 0 0.938;
+  margin: 0 auto;
+}
+/* Navigation Bar Styles*/
+}
+.top-navigaiton{
+  background-color: #FFF;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
+}
+
+}
+.top-navigation > .content{
+  height: 4.375em;
+  width: 60%;
+}
+.top-navigation .logo{
+height: 4.375em;
+}
+.top-navigation .navigation-links{
+  float: right;
+  color: #838994;
+  font-size: 1.04em;
+  margin-top: 1.7em;
+}
+.navigation-links > ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0 ;
+  overflow: hidden;
+}
+.top-navigation .navigation-links > li {
+  display: inline-block;
+  margin-left: 1.563em;
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -426,9 +472,3 @@ th {
   padding: 0;
 }
 
-body{
-  background-color: LightGrey;
-}
-div{
-  border: 1px solid chocolate;
-}
