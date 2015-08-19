@@ -10,9 +10,10 @@ div{
   padding: 0 0.938;
   margin: 0 auto;
 }
+
 /* Navigation Bar Styles*/
-}
-.top-navigaiton{
+
+.top-navigation{
   background-color: #FFF;
   position: fixed;
   width: 100%;
@@ -20,10 +21,10 @@ div{
   z-index: 9999;
 }
 
-}
 .top-navigation > .content{
-  height: 4.375em;
-  width: 60%;
+  height: 70px;
+  width: 970px;
+  margin: 0 auto;
 }
 .top-navigation .logo{
 height: 4.375em;
