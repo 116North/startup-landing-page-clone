@@ -430,7 +430,6 @@ th {
 
 /*Visual delimeters for the site layout*/
 body{
-  background-color: LightGrey;
   font-family: 'Roboto', sans-serif; 
   font-size: 16px; 
   color: #838994; 
@@ -443,6 +442,9 @@ body{
   padding: 0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
+  height: 70px;
+  width: 970px;
+  margin: 0 auto;
 }
 
 /* Navigation Bar Styles*/
@@ -453,12 +455,6 @@ body{
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
-}
-
-.top-navigation > .content{
-  height: 70px;
-  width: 970px;
-  margin: 0 auto;
 }
 .top-navigation .logo{
 height: 4.375em;
@@ -511,4 +507,20 @@ height: 4.375em;
 .introduction h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
+}
+.buttons{
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  width: 9.688rem;
+  color: white;
+  font-size: 1.125rem;
+  background-color: #f15a29;
+  text-align: center;
+  cursor: default;
+}
+.introduction .buttons{
+   display: block;
+   margin: 0 auto;
 }
