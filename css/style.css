@@ -560,3 +560,58 @@ height: 4.375em;
   margin: 2.5rem 0px 1.875rem;
 }
 
+/*Footer styles*/
+.social {
+  background-color: #fff;
+  padding-bottom: 9.375rem;
+
+  text-align: center;
+}
+.social .content{
+  text-align: center;
+}
+.social h5{
+  color: black;
+  font-size: .9rem;
+  font-weight: 300;
+}
+.social ul{
+  list-style-type: none;
+  margin: 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+.social hr{
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
+.social .icons > li{
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+.social .twitter{
+  color: #55acee;
+}
+.social .facebook{
+  color: #4c66a4;
+}
+.social .instagram{
+  color: #3f729b;
+}
+.social .copy{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
+
+
+
