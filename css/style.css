@@ -426,8 +426,6 @@ th {
   padding: 0;
 }
 
-
-
 /*Visual delimeters for the site layout*/
 body{
   font-family: 'Roboto', sans-serif; 
@@ -442,7 +440,7 @@ body{
   padding: 0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
-  height: 70px;
+  /*height: 70px;*/
   width: 970px;
   margin: 0 auto;
 }
@@ -457,7 +455,7 @@ body{
   z-index: 9999;
 }
 .top-navigation .logo{
-height: 4.375em;
+  height: 4.375em;
 }
 .top-navigation .navigation-links{
   float: right;
@@ -469,7 +467,7 @@ height: 4.375em;
 .navigation-links > ul{
   list-style-type: none;
   margin: 0;
-  padding:0 ;
+  padding:0;
   overflow: hidden;
 }
 .top-navigation .navigation-links > li {
@@ -480,9 +478,9 @@ height: 4.375em;
     color: #4c5058;
     font-weight: 500;
 }
-.top-navigation .navigaiton-links li:hover{
+.top-navigation .navigation-links > li:hover{
   cursor: pointer;
-  color: #333333
+  color: #333333;
 }
 
 /* Call to action section*/
@@ -524,12 +522,11 @@ height: 4.375em;
    display: block;
    margin: 0 auto;
 }
-
 /* Cases section */
 .cases {
   background-color: #fff;
-
   padding-bottom: 5rem;
+  overflow: auto;
 }
 .cases .content{
   margin-top: 7.875rem;
@@ -547,13 +544,11 @@ height: 4.375em;
   padding:0 ;
   overflow: hidden;
 }
-
 .cases .devices li {
   display: inline-block;
   width: 33.33333333%;
   float: left;
 }
-
 .cases h3{
   font-weight: 400;
   font-size: 1.563rem;
@@ -564,8 +559,8 @@ height: 4.375em;
 .social {
   background-color: #fff;
   padding-bottom: 9.375rem;
-
   text-align: center;
+  overflow: auto;
 }
 .social .content{
   text-align: center;
@@ -581,8 +576,8 @@ height: 4.375em;
   padding: 0;
   overflow: hidden;
 }
-.social hr{
-  border: 0;
+.social hr{ 
+  border-left: 0;
   border-top: 1px solid #eaebec;
   margin: 1.313rem 0;
 }
